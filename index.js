@@ -6,6 +6,9 @@ const path = require('path');
 const app = express();
 let anu;
 
+app.get("/", (req, res) => {
+  res.send("denis kontol")
+})
 app.get("/gtc", async(req, res) => {
   let { nomer } = req.query
   main(nomer).then(() => {
