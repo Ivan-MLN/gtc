@@ -6,6 +6,7 @@ const app = express();
 const truecallerjs = require("truecallerjs");
 const axios = require('axios');
 
+app.set("json spaces", 2)
 app.get("/", (req, res) => {
   res.send("GET /lookup?no=")
 })
