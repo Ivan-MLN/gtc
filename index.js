@@ -12,8 +12,8 @@ app.get("/", (req, res) => {
 app.get("/lookup", async(req, res) => {
   let { no } = req.query
   let truecaller = await tcl(no)
-  let eyecon = await eyecon(no)
-  res.json({ truecaller, eyecon })
+  let eye = await eyecon(no)
+  res.json({ truecaller, eyecon: eye })
 })
 
 const tcl = async (no) => {
