@@ -1,5 +1,5 @@
 {
-  "name": "gtc-api",
+  "name": "lookup-api",
   "version": "1.0.0",
   "description": "punya denis",
   "main": "index.js",
@@ -7,10 +7,11 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "awesome-phonenumber": "^6.9.0",
     "express": "^4.18.2",
     "http": "*",
-    "gtc-js": "*",
+    "jsqr": "*",
     "qrcode-terminal": "*",
-    "jsqr": "*"
+    "truecallerjs": "^2.2.0"
   }
 }
