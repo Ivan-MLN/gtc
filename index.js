@@ -21,7 +21,7 @@ const tcl = async (no) => {
     const searchData = {
         number: no,
         countryCode: await (await getCountry(no)).region,
-        installationId: "a2i0Z--nBHL5ckIkLhqh1dIziCjrZApo0sZyWzPHJQkz12jc6VSV7Y4r27Hufp6l",
+        installationId: "a2i02--nJrQT1-fVRKEu_06IAgoXi3o8UPLgo_AX_PzjXuloHGBlUpz-K7IS-ktE�ID",
     };
 
     return await truecallerjs.search(searchData)
